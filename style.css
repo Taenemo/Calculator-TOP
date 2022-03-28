@@ -1,0 +1,50 @@
+*,
+::before,
+::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+}
+
+.calculator {
+    height: 700px;
+    width: 30%;
+    background-color:rgb(243, 239, 239);
+}
+
+.display {
+    height: 25%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+    padding: 5px;
+}
+
+#current-display {
+    font-size: 30px;
+}
+
+.inter-active-buttons {
+    height: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+button {
+    flex: 1 0 25%;
+    font-weight:500;
+    font-size: 1rem;
+    cursor: pointer;
+}
